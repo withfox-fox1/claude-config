@@ -1,6 +1,6 @@
 # claude-config
 
-Claude Code の共通指示ファイルを複数の PC で共有するためのリポジトリ（private）。
+Claude Code の共通指示ファイルを複数の PC で共有するためのリポジトリ（public）。
 
 | ファイル | リンク先 | 内容 |
 |---|---|---|
@@ -10,7 +10,7 @@ Claude Code の共通指示ファイルを複数の PC で共有するための�
 ## 導入
 
 ```bash
-gh repo clone withfox-fox1/claude-config ~/claude-config
+git clone https://github.com/withfox-fox1/claude-config.git ~/claude-config
 ~/claude-config/install.sh
 ```
 
