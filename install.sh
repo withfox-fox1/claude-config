@@ -22,4 +22,3 @@ link() {
 }
 
 link "$REPO_DIR/CLAUDE.md" "$HOME/.claude/CLAUDE.md"
-link "$REPO_DIR/AGENTS.md" "$HOME/AGENTS.md"

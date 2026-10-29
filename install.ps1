@@ -34,4 +34,3 @@ function Copy-Config {
 }
 
 Copy-Config (Join-Path $RepoDir 'CLAUDE.md') (Join-Path $HOME '.claude\CLAUDE.md')
-Copy-Config (Join-Path $RepoDir 'AGENTS.md') (Join-Path $HOME 'AGENTS.md')

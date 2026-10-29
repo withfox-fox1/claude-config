@@ -4,7 +4,7 @@
 
 ---
 
-GitHub の公開リポジトリ https://github.com/withfox-fox1/claude-config に、Claude Code の共通指示ファイル（CLAUDE.md と AGENTS.md）が入っています。この PC に導入し、あわせて Claude Code のユーザー設定をトークン節約向けに調整してください。
+GitHub の公開リポジトリ https://github.com/withfox-fox1/claude-config に、Claude Code の共通指示ファイル（CLAUDE.md）が入っています。この PC に導入し、あわせて Claude Code のユーザー設定をトークン節約向けに調整してください。
 
 1. OS を判定する（Mac か Windows か）。以降は該当する方の手順に従う。
 2. `git clone https://github.com/withfox-fox1/claude-config.git ~/claude-config` を実行する（ホーム直下の `claude-config`。既にあれば `cd ~/claude-config && git pull --ff-only`）。
@@ -20,8 +20,8 @@ GitHub の公開リポジトリ https://github.com/withfox-fox1/claude-config �
    - ファイルが存在しない場合は、`language` だけを持つ最小構成（`{"language": "japanese"}`）で新規作成する。
    - 編集後、JSON として正しいか確認する（パースできること）。
 5. 結果を確認して報告する。
-   - Mac: `ls -la ~/.claude/CLAUDE.md ~/AGENTS.md` でリンク 2 本を確認する。
-   - Windows: コピー先 2 ファイル（`$HOME\.claude\CLAUDE.md`、`$HOME\AGENTS.md`）の存在と、リポジトリ版との内容一致を確認する。
+   - Mac: `ls -la ~/.claude/CLAUDE.md` でリンクを確認する。
+   - Windows: コピー先（`$HOME\.claude\CLAUDE.md`）の存在と、リポジトリ版との内容一致を確認する。
    - 共通: `settings.json` の変更前後の差分（何を削除・設定したか）を報告する。
 6. 次の 2 点をユーザーに伝える。
    - 新しい指示と設定は、Claude Code を再起動すると有効になる。
